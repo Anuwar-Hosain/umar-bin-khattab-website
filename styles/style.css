@@ -19,6 +19,9 @@ body {
   width: 65vw;
   margin: 0 auto;
 }
+.mt {
+  margin-top: 10vh;
+}
 /* Global styles end */
 /* Header Section Start */
 .nav-bar-bg-color {
@@ -123,4 +126,42 @@ body {
 }
 /* Header Section end */
 /* Main section start  */
+/* History section start  */
+.history {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+.history-img {
+}
+.history-img > img {
+  width: 30vw;
+  border-radius: 7px;
+}
+.history-info-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.history-info-para {
+  font-size: 1rem;
+  text-align: justify;
+}
+/* Students and Teacher Section start  */
+.stu-tea-card {
+  background-color: var(--common-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.stu-tea-card > i {
+  font-size: 2rem;
+}
+.card-title {
+  font-size: 2.5rem;
+}
 /* Main section end  */
