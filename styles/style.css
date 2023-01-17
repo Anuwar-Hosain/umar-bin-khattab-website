@@ -86,7 +86,7 @@ body {
   padding: 10px 30px;
   border: navajowhite;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -146,7 +146,28 @@ body {
   font-size: 1rem;
   text-align: justify;
 }
+.history-btn {
+  font-family: var(--common-font);
+  background-color: var(--common-color);
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: navajowhite;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s;
+}
 /* Students and Teacher Section start  */
+.all-stu-teacher-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 10px 0;
+}
 .stu-tea-card {
   background-color: var(--common-color);
   display: flex;
@@ -155,13 +176,18 @@ body {
   align-items: center;
   width: 200px;
   height: 150px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #ffffff;
+  cursor: pointer;
+  padding: 20px 0;
 }
 .stu-tea-card > i {
   font-size: 2rem;
 }
 .card-title {
   font-size: 2.5rem;
+}
+.card-para {
+  font-size: 18px;
 }
 /* Main section end  */
