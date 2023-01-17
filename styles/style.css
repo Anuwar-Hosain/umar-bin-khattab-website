@@ -22,6 +22,9 @@ body {
 .mt {
   margin-top: 10vh;
 }
+hr {
+  border: 1px solid var(--common-color);
+}
 /* Global styles end */
 /* Header Section Start */
 .nav-bar-bg-color {
@@ -122,7 +125,7 @@ body {
   flex: 1;
 }
 .hero-img > img {
-  width: 90%;
+  width: 95%;
 }
 /* Header Section end */
 /* Main section start  */
@@ -145,6 +148,7 @@ body {
 .history-info-para {
   font-size: 1rem;
   text-align: justify;
+  margin-bottom: 18px;
 }
 .history-btn {
   font-family: var(--common-font);
@@ -189,5 +193,84 @@ body {
 }
 .card-para {
   font-size: 18px;
+}
+
+/* Teacher Section Start  */
+.teacher-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.main-teacher {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.teacher-img > img {
+  width: 20vw;
+  border-radius: 5px;
+}
+/* .teacher-info {
+  border-left: 5px solid var(--common-color);
+  padding-left: 10px;
+} */
+.teacher-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.name-title {
+  font-family: var(--common-font);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  line-height: 20px;
+  border-left: 5px solid var(--common-color);
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.teacher-para {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: justify;
+}
+/* all teacher section start */
+.all-teachers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.teachers {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 15vw;
+}
+.all-teacher-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.all-teacher-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.all-teacher-ingo {
+  text-align: center;
+}
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.all-name-para {
+  font-size: 1rem;
 }
 /* Main section end  */
