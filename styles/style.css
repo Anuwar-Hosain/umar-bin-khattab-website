@@ -184,6 +184,10 @@ hr {
   color: #ffffff;
   cursor: pointer;
   padding: 20px 0;
+  transition: all 0.4s;
+}
+.stu-tea-card:hover {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .stu-tea-card > i {
   font-size: 2rem;
@@ -240,16 +244,21 @@ hr {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
+  margin-top: 50px;
 }
 .teachers {
   background: #ffffff;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px;
   width: 15vw;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.teachers:hover {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .all-teacher-img {
   width: 200px;
@@ -263,8 +272,10 @@ hr {
   height: 100%;
   object-fit: cover;
 }
-.all-teacher-ingo {
-  text-align: center;
+.all-teacher-info {
+  text-align: left;
+  border-left: 5px solid var(--common-color);
+  padding-left: 10px;
 }
 .name {
   font-size: 1.1rem;
@@ -272,5 +283,20 @@ hr {
 }
 .all-name-para {
   font-size: 1rem;
+}
+.see-more {
+  color: var(--common-color);
+  font-size: 18px;
+  font-family: var(--common-font);
+  text-align: right;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.see-more > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 /* Main section end  */
